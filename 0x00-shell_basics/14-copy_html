@@ -1,2 +1,2 @@
 #!/bin/bash
-find ../folder_source -name "*.html" -exec cp -v {} ../../folder_destination \\\\
+find ../folder_source -name "*.html" -exec cp -uv {} ../../folder_destination \\\\
