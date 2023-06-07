@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in *.html; do cp -v "$file" ../ && printf 'Copied %s\n' "$file"; done
+find ../folder_source -name "*.html" -exec cp -v {} ../../folder_destination \\\\
