@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la . .. /boot | grep -v '^d' -d
+ls -la . .. /boot | grep -v '^d'
