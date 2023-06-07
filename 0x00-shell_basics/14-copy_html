@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -v *.html ../../folder_destination/$(basename *.html)
+cp -v $(find . -type f -name "*.html" | basename -s .html) ../../folder_destination/
